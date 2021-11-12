@@ -11812,24 +11812,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dougd\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Gian\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Trab2\\Trab2\\Trab2\\Trab2.csproj",
+      "projectUniqueName": "C:\\Users\\Gian\\Desktop\\ADS\\SWII\\.Net\\Trab2\\Trab2\\Trab2\\Trab2.csproj",
       "projectName": "Trab2",
-      "projectPath": "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Trab2\\Trab2\\Trab2\\Trab2.csproj",
-      "packagesPath": "C:\\Users\\dougd\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\faculdade\\tuller\\asp\\AspIfsp\\Trab2\\Trab2\\Trab2\\obj\\",
+      "projectPath": "C:\\Users\\Gian\\Desktop\\ADS\\SWII\\.Net\\Trab2\\Trab2\\Trab2\\Trab2.csproj",
+      "packagesPath": "C:\\Users\\Gian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gian\\Desktop\\ADS\\SWII\\.Net\\Trab2\\Trab2\\Trab2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\dougd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Gian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -11840,6 +11844,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "projectReferences": {}
         }
       },
@@ -11851,6 +11856,7 @@
     },
     "frameworks": {
       "netcoreapp2.1": {
+        "targetAlias": "netcoreapp2.1",
         "dependencies": {
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
@@ -11864,16 +11870,23 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
