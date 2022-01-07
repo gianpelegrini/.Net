@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\API",
+    "\\API\\P2_API",
+    "\\API\\P2_API\\P2_API",
+    "\\CRUDs",
+    "\\CRUDs\\CRUD.Produtos",
+    "\\CRUDs\\CRUD.Usuairos"
+  ],
+  "SelectedNode": "\\API\\P2_API\\P2_API\\Startup.cs",
+  "PreviewInSolutionExplorer": false
+}
